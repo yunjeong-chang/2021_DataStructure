@@ -1,0 +1,132 @@
+//1번. 1부터 N까지의 합 출력
+#include <stdio.h>
+int sum(int n) {
+	if (n == 1) return 1;
+	else return n + sum(n - 1); //10+sum(9) -> 10+9+sum(8) -> ... -> 10+9+8+7+6+5+4+3+2+1
+}
+
+int main() {
+	int N;
+	scanf("%d", &N); //10
+	printf("%d", sum(N)); //55
+	return 0;
+}
+
+//2번. 각 자리 수를 높은 자릿수부터 차례로 출력
+#include <stdio.h>
+int printDigits(int n) {
+	if (n < 10)
+		printf("%d\n", n);
+	else {
+		printDigits(n / 10); //(중요)재귀호출이 먼저 나와야 함
+		printf("%d\n", n % 10);
+	}
+}
+int main() {
+	int N;
+	scanf("%d", &N); //입력 정수 3408
+	printDigits(N); 
+	return 0;
+}
+
+//3번. 각 자리 수를 낮은 자릴수부터 차례로 출력
+#include <stdio.h>
+int printDigits(int n) {
+	if (n < 10)
+		printf("%d\n", n);
+	else {
+		printf("%d\n", n % 10); //입력 정수 3408
+		printDigits(n / 10);  //(중요)재귀호출이 뒤에 나와야 함
+	}
+}
+int main() {
+	int N;
+	scanf("%d", &N);
+	printDigits(N);
+	return 0;
+}
+
+//4번. 최댓값을 구하는 프로그램
+#include <stdio.h>
+int maxmax(int a[], int n) {
+	int max = 0;
+	if (n == 0) return a[0];
+	else {
+		max = maxmax(a, n - 1); // 재귀 수행해서 가장 큰 값을 max에 저장
+
+		if (max > a[n - 1]) return max;
+		else return a[n - 1];
+	}
+}
+
+int main() {
+	int N, A[20], i;
+	scanf("%d", &N); //5
+	for (i = 0; i < N; i++) {
+		scanf("%d", &A[i]); //4 1 8 3 7
+	}
+	printf("%d", maxmax(A, N)); //8
+	return 0;
+}
+
+//5번. 하노이 탑
+#include <stdio.h>
+
+void rHanoi(int n, char from, char aux, char to) {
+	//n: 이동해야 할 원반 수
+	//from: 출발 말 뚝
+	//aux: 보조 말뚝
+	//to: 목표 말뚝
+	if (n == 1) {
+		printf("%c %c\n", from, to);
+		return;
+	}
+	rHanoi(n - 1, from, to, aux); //aux까지!
+	printf("%c %c\n", from, to);
+	rHanoi(n - 1, aux, from, to); //to까지!
+	return;
+}
+
+int main() {
+	int N;
+	scanf("%d", &N); //2
+	rHanoi(N, 'A', 'B', 'C');
+	return 0;
+}
+
+//6번. 두 정수의 최대공약수를 유클리드 호제법으로 계산하여 출력
+#include <stdio.h>
+int gcd(int a, int b) {
+	if (b == 0)
+		return a; //종료 후 a 값이 최대공약수
+	else
+		return gcd(b, a % b);
+}
+int main() {
+	int a, b;
+	scanf("%d %d", &a, &b); //12 8
+	printf("%d", gcd(a, b)); //4 (12와 8의 최대공약수)
+	return 0;
+}
+
+//7번. 영어 문자열에서 특정 문자가 몇 번 나오는지 검사
+#include <stdio.h>
+int inspection(char str[], char ch) {//str은 문자열, ch는 검사 할 특정 문자
+	if (strlen(str) == 0)
+		return 0; //더이상 문자열 없어지면 종료
+
+	else if (str[0] == ch)
+		return 1 + inspection(str + 1, ch); //ch와 일치하면 + 1
+
+	else
+		return inspection(str + 1, ch); //앞에서부터 하나하나 검사
+}
+int main() {
+	char str[100];
+	char check;
+	scanf("%s", &str); //SheIsAStudent
+	getchar();
+	scanf("%c", &check); //s
+	printf("%d", inspection(str, check)); //1 (소문자 s가 한 번 나타남)
+	return 0;
+}
