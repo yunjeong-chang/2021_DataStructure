@@ -5,7 +5,7 @@ int sum(int n) {
 	if (n == 1) return 1;
 	else return n + sum(n - 1); //10+sum(9) -> 10+9+sum(8) -> ... -> 10+9+8+7+6+5+4+3+2+1
 }
-```
+
 int main() {
 	int N;
 	scanf("%d", &N); //10
@@ -131,3 +131,4 @@ int main() {
 	printf("%d", inspection(str, check)); //1 (소문자 s가 한 번 나타남)
 	return 0;
 }
+```
