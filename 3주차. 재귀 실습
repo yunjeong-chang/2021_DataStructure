@@ -131,4 +131,3 @@ int main() {
 	printf("%d", inspection(str, check)); //1 (소문자 s가 한 번 나타남)
 	return 0;
 }
-```
