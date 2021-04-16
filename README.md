@@ -8,9 +8,9 @@
 |2|알고리즘 분석|[💚](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/2%EC%A3%BC%EC%B0%A8.%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EB%B6%84%EC%84%9D%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8.md)|||
 |3|재귀|[💚](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/3%EC%A3%BC%EC%B0%A8.%20%EC%9E%AC%EA%B7%80%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8.md)||[💜](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/3%EC%A3%BC%EC%B0%A8.%20%EC%9E%AC%EA%B7%80%20%EC%8B%A4%EC%8A%B5.md)|
 |4|기초 데이터구조|[💚](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/4%EC%A3%BC%EC%B0%A8.%20%EA%B8%B0%EC%B4%88%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B5%AC%EC%A1%B0%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8.md)||[💜](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/4%EC%A3%BC%EC%B0%A8.%20%EB%B0%B0%EC%97%B4%20%EC%8B%A4%EC%8A%B5.md)|
-|5|리스트|||[💜](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/5%EC%A3%BC%EC%B0%A8.%20%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8(1)%20%EC%8B%A4%EC%8A%B5.md)|
-|6|리스트|||[💜](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/6%EC%A3%BC%EC%B0%A8.%20%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8(2)%20%EC%8B%A4%EC%8A%B5.md)|
-|7|집합||[💙](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/7%EC%A3%BC%EC%B0%A8.%20%EC%A7%91%ED%95%A9%20%EC%97%B0%EC%8A%B5.md)||
+|5|리스트|[💚](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/5%EC%A3%BC%EC%B0%A8.%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8.md)||[💜](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/5%EC%A3%BC%EC%B0%A8.%20%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8(1)%20%EC%8B%A4%EC%8A%B5.md)|
+|6|리스트|[💚]||[💜](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/6%EC%A3%BC%EC%B0%A8.%20%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8(2)%20%EC%8B%A4%EC%8A%B5.md)|
+|7|집합|[💚]|[💙](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/7%EC%A3%BC%EC%B0%A8.%20%EC%A7%91%ED%95%A9%20%EC%97%B0%EC%8A%B5.md)||
 |8|중간고사||||
 
 #### 참고 도서
