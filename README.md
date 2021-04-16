@@ -5,7 +5,7 @@
 |week|Contents|LectureNote|exercise|practice|
 |:--:|:--:|:--:|:--:|:--:|
 |1|C언어 복습||||
-|2|알고리즘 분석||||
+|2|알고리즘 분석|[💚](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/2%EC%A3%BC%EC%B0%A8.%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EB%B6%84%EC%84%9D%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8.md)|||
 |3|재귀||||
 |4|기초 데이터구조||||
 |5|리스트||||
