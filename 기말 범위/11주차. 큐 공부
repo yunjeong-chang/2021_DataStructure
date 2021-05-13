@@ -1,0 +1,107 @@
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+	int max;   //큐의 최대 용량
+	int num;   //현재의 요소 개수
+	int front; //프런트
+	int rear;  //리어
+	int *que;  //큐의 맨 앞 요소에 대한 포인터
+} Queue;
+
+int Initialize(Queue*q, int max) { //큐 초기화
+	q->num = q->front = q->rear = 0;
+	if ((q->que = calloc(max, sizeof(int))) == NULL) {
+		q->max = 0;								
+		return -1;
+	}
+	q->max = max;
+	return 0;
+}
+
+int Enque(Queue*q, int x) { //큐에 데이터를 인큐
+	if (q->num >= q->max)
+		return -1;						
+	else {
+		q->num++;
+		q->que[q->rear++] = x;
+		if (q->rear == q->max)
+			q->rear = 0;
+		return 0;
+	}
+}
+
+int Deque(Queue*q, int *x) { //큐에서 데이터를 디큐
+	if (q->num <= 0)							
+		return -1;
+	else {
+		q->num--;
+		*x = q->que[q->front++];
+		if (q->front == q->max)
+			q->front = 0;
+		return 0;
+	}
+}
+
+int Peek(const Queue*q, int *x) { //큐에서 데이터를 피크
+	if (q->num <= 0)							
+		return -1;
+	*x = q->que[q->front];
+	return 0;
+}
+
+void Clear(Queue*q){ //모든 데이터 삭제
+	q->num = q->front = q->rear = 0;
+}
+
+int Capacity(const Queue*q) { //큐의 최대 용량
+	return q->max;
+}
+
+int Size(const Queue*q) { //큐에 저장된 데이터 개수
+	return q->num;
+}
+
+int IsEmpty(const Queue*q) { //큐가 비어있는가?
+	return q->num <= 0;
+}
+
+int IsFull(const Queue*q) { //큐가 가득 찼는가?
+	return q->num >= q->max;
+}
+
+int Search(const Queue*q, int x) { //큐에서 검색
+	int i, idx;
+
+	for (i = 0; i < q->num; i++) {
+		if (q->que[idx = (i + q->front) % q->max] == x)
+			return idx;		
+	}
+	return -1;				
+}
+
+int Search2(const Queue*q, int x) { //큐에서 검색
+	int i;
+
+	for (i = 0; i < q->num; i++) {
+		if (q->que[(i + q->front) % q->max] == x)
+			return i;		
+	}
+	return -1;				
+}
+
+void Print(const Queue*q) { //모든 데이터 출력
+	int i;
+
+	for (i = 0; i < q->num; i++)
+		printf("%d ", q->que[(i + q->front) % q->max]);
+	putchar('\n');
+}
+
+void Terminate(Queue*q) { //큐 종료
+	if (q->que != NULL)
+		free(q->que);							
+	q->max = q->num = q->front = q->rear = 0;
+}
+```
