@@ -14,7 +14,7 @@
 |8|중간고사||||
 |9|스택||[💙](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/%EA%B8%B0%EB%A7%90%20%EB%B2%94%EC%9C%84/9%EC%A3%BC%EC%B0%A8.%20%EC%8A%A4%ED%83%9D%20%EA%B3%B5%EB%B6%80.md)|💜|
 |10|스택|||💜|
-|11|큐||||
+|11|큐||[💙](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/%EA%B8%B0%EB%A7%90%20%EB%B2%94%EC%9C%84/11%EC%A3%BC%EC%B0%A8.%20%ED%81%90%20%EA%B3%B5%EB%B6%80.md)|💜|
 
 
 
