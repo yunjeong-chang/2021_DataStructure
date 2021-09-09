@@ -1,6 +1,5 @@
 # 2021_DataStructure
 ### 자료구조 공부
-코드를 그대로 복사하여 제출 시 문제가 발생할 수 있습니다. 작성자는 책임지지 않습니다! 🙅‍♀️
 
 |week|Contents|LectureNote|exercise|practice|
 |:--:|:--:|:--:|:--:|:--:|
@@ -18,6 +17,9 @@
 |12|트리|[💚](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/%EA%B8%B0%EB%A7%90%20%EB%B2%94%EC%9C%84/12%EC%A3%BC%EC%B0%A8.%20%ED%8A%B8%EB%A6%AC%20%EC%9D%B4%EB%A1%A0.md)||[💜](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/%EA%B8%B0%EB%A7%90%20%EB%B2%94%EC%9C%84/12%EC%A3%BC%EC%B0%A8.%20%ED%8A%B8%EB%A6%AC%20%EC%8B%A4%EC%8A%B5(1).md)|
 |13|트리|||[💜](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/%EA%B8%B0%EB%A7%90%20%EB%B2%94%EC%9C%84/13%EC%A3%BC%EC%B0%A8.%20%ED%8A%B8%EB%A6%AC%20%EC%8B%A4%EC%8A%B5(2).md)|
 |14|트리|||[💜](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/%EA%B8%B0%EB%A7%90%20%EB%B2%94%EC%9C%84/14%EC%A3%BC%EC%B0%A8.%20%ED%8A%B8%EB%A6%AC%20%EC%8B%A4%EC%8A%B5(3).md)|
+
+
+코드 복사 및 표절에 대해서 작성자는 책임지지 않습니다! 🙅‍♀️
 
 
 #### 참고 도서
