@@ -19,8 +19,6 @@
 |14|트리|||[💜](https://github.com/yunjeong-chang/2021_DataStructure/blob/main/%EA%B8%B0%EB%A7%90%20%EB%B2%94%EC%9C%84/14%EC%A3%BC%EC%B0%A8.%20%ED%8A%B8%EB%A6%AC%20%EC%8B%A4%EC%8A%B5(3).md)|
 
 
-코드 복사 및 표절에 대해서 작성자는 책임지지 않습니다! 🙅‍♀️
-
 
 #### 참고 도서
 - [데이터구조 원리와 응용](http://www.yes24.com/Product/Goods/70199786)
